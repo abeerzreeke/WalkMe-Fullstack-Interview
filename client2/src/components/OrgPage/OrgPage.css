@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    width: 7%;
+    border: black;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 0 90%;
+    cursor: pointer;
+    font-size: 30px;
+    color: #1a1c19;
+    border: 2px solid black;
+}
+
+.profile-page {
+    margin: auto;
+    margin-top: 5%;
+    position: relative;
+}
+
+.tree-node {
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 2px solid #3294d1;
+    cursor: pointer;
+    margin: 30px 15px 0;
+}
+
+/* data wrapper */
+
+.employee-data {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    background-color: #1e99e5c2;
+    color: #ebe8ef;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.employee-data.active {
+    display: block;
+}
+
+.employee-data table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.employee-data table tr:nth-child(odd) {
+    background: #6aa5c9;
+}
+
+.employee_data table tr td,
+.employee_data table tr th {
+    padding: 10px;
+}
+
+/* tree */
+
+.tree_wrapper {
+    background: #ddd;
+}
+
+.tree_wrapper ul:before {
+    content: unset;
+}
+
+.tree_wrapper li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
