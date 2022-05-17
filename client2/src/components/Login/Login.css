@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app-header {
+    position: absolute;
+    margin-top: -8%;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.signIn {
+    width: 50%;
+    height: 95%;
+    /* margin: 10% auto; */
+    padding: 4% 0;
+    background: #3294d166;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 5%;
+    position: relative;
+    border-radius: 25px;
+
+}
+
+.signIn form {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#email,
+#password {
+    border: none;
+    border-radius: 10px;
+    padding: 21px 77px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 44px;
+    margin-top: 2px;
+}
+
+.signIn p {
+    font-size: 20px;
+    padding: 0 50px;
+    margin: 15px 0 10px;
+}
+
+.signIn p.toggle_password {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signin-btn {
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 10px 40%;
+    cursor: pointer;
+    font-size: 30px;
+    color: #1a1c19;
+    border: 2px solid black;
+}
